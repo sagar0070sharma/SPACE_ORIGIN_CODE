@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Sparkles, Compass, Radio } from "lucide-react";
 
@@ -21,16 +22,28 @@ export default function HeroVisual() {
         </div>
       </motion.div>
 
-      {/* Orbit Ring 2 - Counter-rotating with Satellite */}
+      {/* Orbit Ring 2 duplicate for layered effect */}
       <motion.div
         animate={{ rotate: -360 }}
         transition={{ duration: 28, repeat: Infinity, ease: "linear" }}
         className="absolute w-[78%] h-[78%] rounded-full border border-purple-500/30"
       >
-        {/* Satellite Object */}
         <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 flex items-center gap-1 bg-slate-900/90 border border-purple-400/60 px-2 py-0.5 rounded-full text-[10px] text-purple-200 font-mono shadow-[0_0_15px_rgba(168,85,247,0.6)]">
           <Radio className="w-2.5 h-2.5 text-purple-400 animate-pulse" />
-          <span>SO-SAT-1</span>
+          <span>SO-2026</span>
+        </div>
+
+        <div className="absolute -bottom-2 right-1/4 w-3 h-3 rounded-full bg-purple-400/60 shadow-[0_0_8px_#a855f7]" />
+      </motion.div>
+
+      <motion.div
+        animate={{ rotate: 360 }}
+        transition={{ duration: 28, repeat: Infinity, ease: "linear" }}
+        className="absolute w-[78%] h-[78%] rounded-full border border-purple-500/30"
+      >
+        <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 flex items-center gap-1 bg-slate-900/90 border border-purple-400/60 px-2 py-0.5 rounded-full text-[10px] text-purple-200 font-mono shadow-[0_0_15px_rgba(168,85,247,0.6)]">
+          <Radio className="w-2.5 h-2.5 text-purple-400 animate-pulse" />
+          <span>SO2-2026</span>
         </div>
 
         <div className="absolute -bottom-2 right-1/4 w-3 h-3 rounded-full bg-purple-400/60 shadow-[0_0_8px_#a855f7]" />
@@ -51,7 +64,7 @@ export default function HeroVisual() {
           {/* Internal planetary grid textures */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_30%,rgba(56,189,248,0.4),transparent_60%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_70%,rgba(168,85,247,0.3),transparent_60%)]" />
-          
+
           {/* Latitude & Longitude lines */}
           <div className="absolute inset-2 rounded-full border border-cyan-400/20 opacity-70" />
           <div className="absolute inset-6 rounded-full border border-cyan-400/15 opacity-60" />
@@ -64,9 +77,17 @@ export default function HeroVisual() {
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             className="relative z-10 flex flex-col items-center text-center p-4"
           >
-            <div className="p-3 rounded-full bg-cyan-500/10 border border-cyan-400/40 text-cyan-300 shadow-[0_0_20px_rgba(6,182,212,0.5)] mb-1">
-              <Compass className="w-8 h-8 animate-spin-slow text-cyan-300" />
+            <div className="p-3 rounded-full bg-cyan-500/10 border border-cyan-400/40 text-cyan-300 shadow-[0_0_20px_rgba(6,182,212,0.5)] mb-1 flex items-center justify-center">
+              <Image
+                src="/images/About/LOGO_Round.png"
+                alt="Space Origin Logo"
+                width={88}
+                height={88}
+                className="object-contain"
+                priority
+              />
             </div>
+
             <span className="font-orbitron font-bold text-xs tracking-widest text-white uppercase drop-shadow-[0_0_8px_rgba(255,255,255,0.8)]">
               Space Origin
             </span>

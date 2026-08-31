@@ -51,7 +51,7 @@ export default function Navbar() {
                   src="/images/About/Space_Origin_LOGO.png"
                   alt="Space Origin Logo"
                   fill
-                  className="object-contain p-0.8"
+                  className="object-contain p-0.8 scale-[1.75] sm:scale-[1.95]"
                   priority
                 />
               </div>

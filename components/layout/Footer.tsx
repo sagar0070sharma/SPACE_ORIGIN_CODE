@@ -36,12 +36,12 @@ export default function Footer() {
           {/* Col 1: Brand & Mission */}
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-3 group">
-              <div className="relative w-10 h-10 rounded-xl bg-slate-900 border border-cyan-500/30 p-1 shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+              <div className="relative w-14 h-14 sm:w-16 sm:h-16 rounded-xl bg-gradient-to-tr from-cyan-500/20 via-purple-500/20 to-blue-500/20 p-1 border border-cyan-500/30 group-hover:border-cyan-400 group-hover:shadow-[0_0_20px_rgba(6,182,212,0.5)] transition-all duration-300">
                 <Image
                   src="/images/About/Space_Origin_LOGO.png"
                   alt="Space Origin Logo"
                   fill
-                  className="object-contain p-0.5"
+                  className="object-contain p-0.8 scale-[1.75] sm:scale-[1.95]"
                 />
               </div>
               <span className="font-orbitron font-extrabold text-xl text-white tracking-wider">

@@ -346,13 +346,13 @@ export const DOMAINS: DomainInfo[] = [
 ];
 
 export const GALLERY_ITEMS: GalleryItem[] = [
-  { id: 1, src: "/images/Gallery/1.JPG", title: "Astronomy Camp Telescope Session", category: "astronomy", categoryLabel: "Astronomy & Sky", description: "Students peering through computerized telescope during night camp." },
-  { id: 2, src: "/images/Gallery/2.JPG", title: "Rocketry Dynamics & Build", category: "rocketry", categoryLabel: "Rocketry & Space", description: "Young rocketeers assembling aerodynamic fin assemblies." },
-  { id: 3, src: "/images/Gallery/3.JPG", title: "Solar Filter Sun Observation", category: "astronomy", categoryLabel: "Astronomy & Sky", description: "Safe direct sunspot observation using certified solar filter lenses." },
-  { id: 4, src: "/images/Gallery/4.png", title: "Space Science Theory Lab", category: "classroom", categoryLabel: "Classroom Labs", description: "Engaging multimedia classroom lecture on the Solar System." },
-  { id: 5, src: "/images/Gallery/5.jpeg", title: "Robotics Chassis Assembly", category: "robotics", categoryLabel: "Robotics & AI", description: "Students wiring obstacle-detection sensors on custom chassis." },
-  { id: 6, src: "/images/Gallery/6.JPG", title: "Outdoor Stargazing Experience", category: "astronomy", categoryLabel: "Astronomy & Sky", description: "Himalayan clear-sky astronomy camp with student cohorts." },
-  { id: 7, src: "/images/Gallery/7.JPG", title: "Hydro Rocket Pressurization", category: "rocketry", categoryLabel: "Rocketry & Space", description: "Excited team preparing pressure chamber for launch sequence." },
+  { id: 1, src: "/images/Gallery/1.JPG", title: "Addressing students During the Demo Session", category: "astronomy", categoryLabel: "Demo Session", description: "Students peering through computerized telescope during night camp." },
+  { id: 2, src: "/images/Gallery/2.JPG", title: "Demo Session", category: "rocketry", categoryLabel: "Demo Session", description: "Young rocketeers assembling aerodynamic fin assemblies." },
+  { id: 3, src: "/images/Gallery/3.JPG", title: "Junior Scientists", category: "astronomy", categoryLabel: "Rocketery Workshop", description: "Safe direct sunspot observation using certified solar filter lenses." },
+  { id: 4, src: "/images/Gallery/4.png", title: "Rocket Launch", category: "rocketry", categoryLabel: "Rocketery Workshop", description: "Engaging multimedia classroom lecture on the Solar System." },
+  { id: 5, src: "/images/Gallery/5.jpeg", title: "Astronomical trip", category: "robotics", categoryLabel: "Good Sky Search", description: "Students wiring obstacle-detection sensors on custom chassis." },
+  { id: 6, src: "/images/Gallery/6.JPG", title: "Telescope Handeling", category: "astronomy", categoryLabel: "Astronomy & Sky", description: "Himalayan clear-sky astronomy camp with student cohorts." },
+  { id: 7, src: "/images/Gallery/7.JPG", title: "Student Interaction", category: "rocketry", categoryLabel: "Rocketry & Space", description: "Excited team preparing pressure chamber for launch sequence." },
   { id: 8, src: "/images/Gallery/8.jpeg", title: "Certificate Distribution Ceremony", category: "awards", categoryLabel: "Awards & Joy", description: "Proud students receiving official Space Origin participation awards." },
   { id: 9, src: "/images/Gallery/9.JPG", title: "Telescope Alignment Demonstration", category: "astronomy", categoryLabel: "Astronomy & Sky", description: "Instructor demonstrating polar alignment on equatorial mount." },
   { id: 10, src: "/images/Gallery/10.JPG", title: "High-Altitude Rocket Launch", category: "rocketry", categoryLabel: "Rocketry & Space", description: "Split-second liftoff of student-engineered water rocket." },
